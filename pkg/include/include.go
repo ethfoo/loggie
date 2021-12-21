@@ -38,6 +38,7 @@ import (
 	_ "loggie.io/loggie/pkg/sink/codec/transformer"
 	_ "loggie.io/loggie/pkg/sink/dev"
 	_ "loggie.io/loggie/pkg/sink/elasticsearch"
+	_ "loggie.io/loggie/pkg/sink/file"
 	_ "loggie.io/loggie/pkg/sink/grpc"
 	_ "loggie.io/loggie/pkg/sink/kafka"
 	_ "loggie.io/loggie/pkg/source/dev"
